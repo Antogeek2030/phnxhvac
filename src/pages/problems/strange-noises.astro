@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout title="strange noises | HVAC Repair Phoenixville PA" description="Professional diagnosis and repair for strange noises issues in Phoenixville, PA. Same-day service available.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>strange noises</h1>
+      <p>Fast diagnosis and repair for common HVAC problems in Phoenixville, PA.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary" style="margin-top:1rem">Call {phoneDisplay}</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container prose">
+      <p>Don't wait for a small issue to become a full system failure. Our technicians diagnose the root cause and provide clear options so you can restore comfort quickly and affordably.</p>
+      <h2>What to Expect</h2>
+      <ul>
+        <li>Same-day or next-day appointments in most cases</li>
+        <li>Thorough inspection with instruments, not guesswork</li>
+        <li>Written estimate before any repair begins</li>
+        <li>Parts on the truck for common failures</li>
+        <li>Honest guidance on repair versus replacement</li>
+      </ul>
+      <p style="margin-top:2rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

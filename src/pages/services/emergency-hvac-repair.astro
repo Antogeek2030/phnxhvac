@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+16105550199';
+const phoneDisplay = '(610) 555-0199';
+---
+<Layout title="Emergency HVAC Repair Phoenixville PA | 24/7 Service" description="24/7 emergency HVAC repair in Phoenixville, PA. Fast response for no heat, no cooling, and system failures. Licensed technicians, same-day service.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Emergency Hvac Repair</h1>
+      <p>Licensed, same-day HVAC service for Phoenixville and Chester County homes.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary" style="margin-top:1rem">Get a Quote — {phoneDisplay}</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container prose">
+      <p>When your heating or cooling system fails, you need a local team that responds quickly and repairs it right. Our technicians serve Phoenixville, Spring City, Royersford, Collegeville, Malvern, and surrounding Chester County communities with stocked vehicles and honest pricing.</p>
+      <h2>What We Fix</h2>
+      <ul>
+        <li>No cooling or weak airflow from AC or heat pumps</li>
+        <li>No heat from gas or electric furnaces</li>
+        <li>Strange noises, short-cycling, and thermostat problems</li>
+        <li>Refrigerant leaks, capacitors, contactors, and motors</li>
+        <li>Ignitors, flame sensors, inducer motors, and heat exchangers</li>
+        <li>Seasonal maintenance and system replacements</li>
+      </ul>
+      <h2>Why Call Us</h2>
+      <p>Upfront written estimates, licensed and insured technicians, same-day availability for most calls, and a workmanship guarantee on every repair. We work on Carrier, Trane, Lennox, Rheem, Goodman, and other major brands.</p>
+      <p style="margin-top:2rem"><a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a> <a href="/contact/" class="btn btn-outline-dark" style="margin-left:0.5rem">Contact Form</a></p>
+    </div>
+  </section>
+</Layout>
